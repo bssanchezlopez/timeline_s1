@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título de la aplicación
-st.title("Timeline con Slider e Imágenes desde GitHub")
+st.title("Detección de transacciones fraudulentas - Timeline")
 
 # Slider con 5 puntos
 valor = st.slider("Selecciona un punto del timeline", 1, 5, 1)
