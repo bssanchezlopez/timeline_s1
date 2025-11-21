@@ -4,8 +4,6 @@ import streamlit as st
 st.title("Detección de transacciones fraudulentas | Timeline")
 st.write("Autor: Brenda Sánchez López | BCP")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de las transacciones fraudulentas.")
-# Slider con 5 puntos
-valor = st.slider("Selecciona un punto del timeline", 1, 5, 1)
 
 # Diccionario que mapea valores del slider con URLs de imágenes en GitHub
 imagenes = {
